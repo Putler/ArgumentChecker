@@ -8,5 +8,16 @@ namespace ArgumentChecker
 {
     public class Class1
     {
+        public bool DoIt(int i)
+        {
+            if (i <= 0)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
     }
 }
